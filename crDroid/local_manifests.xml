@@ -1,0 +1,18 @@
+<manifest>
+
+<!-- Add sdm660-devs as remote -->
+<remote name="sdm660" fetch="https://github.com/xiaomi-sdm660-devs" />
+
+<!-- Add my repo as remote -->
+<remote name="nitesh" fetch="https://github.com/niteshkumar2000" />
+
+<!-- Track device repos -->
+<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="crdroid"  revision="crDroid"/>
+<project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="crdroid"  revision="crDroid"/>
+<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sdm660"  revision="lineage-17.1"/>
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sdm660"  revision="lineage-17.1"/>
+
+<!-- Track Miui Camera -->
+<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="master"/>
+
+</manifest>
