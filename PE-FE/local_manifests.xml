@@ -1,9 +1,12 @@
 <manifest>
 
+<!-- Add ryan's git as remote -->
+<remote name="ryan" fetch="https://github.com/ryan-andri/" />
+
 <!-- Track device repos -->
 <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common-1" remote="FE"  revision="pe-10"/>
 <project path="device/xiaomi/twolip" name="device_xiaomi_twolip" remote="FE"  revision="pe-10"/>
-<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sdm660"  revision="lineage-17.1"/>
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="sdm660"  revision="lineage-17.1"/>
+<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_tulip" remote="ryan"  revision="android-10"/>
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_twolip" remote="FE"  revision="pe-10"/>
 
 </manifest>
