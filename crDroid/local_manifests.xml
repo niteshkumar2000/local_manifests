@@ -8,9 +8,9 @@
 
 <!-- Track device repos -->
 <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="crdroid"  revision="crDroid"/>
-<project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="crdroid"  revision="crDroid"/>
+<project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="crdroid"  revision="crDroid"/>
 <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_tulip" remote="ryan"  revision="android-10"/>
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_twolip" remote="crdroid"  revision="crDroid"/>
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_tulip" remote="crdroid"  revision="crDroid"/>
 
 <!-- Track Miui Camera -->
 <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="master"/>
