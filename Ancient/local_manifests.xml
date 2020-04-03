@@ -6,11 +6,14 @@
 <!-- Add my git as remote -->
 <remote name="nitesh" fetch="https://github.com/niteshkumar2000/" />
 
+<!-- Add ancient devices to remote -->
+<remote name="ancient-device" fetch="https://github.com/ancient-devices" />
+
 <!-- Track device repos -->
-<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="ancient"  revision="ten"/>
-<project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="ancient"  revision="ten"/>
+<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="ancient-device"  revision="ten"/>
+<project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="ancient-device"  revision="ten"/>
 <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_tulip" remote="ryan"  revision="android-10"/>
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_tulip" remote="ancient"  revision="ten"/>
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_tulip" remote="ancient-device"  revision="ten"/>
 
 <!-- Track Miui Camera -->
 <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="master"/>
