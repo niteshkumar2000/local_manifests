@@ -1,12 +1,18 @@
 <manifest>
 
 <!-- Add ryan's git as remote -->
-<remote name="ryan" fetch="https://github.com/ryan-andri/" />
+<!-- <remote name="ryan" fetch="https://github.com/ryan-andri/" /> -->
+
+<!-- Add sdm660 dev as remote-->
+<remote name="sdm660" fetch="https://github.com/xiaomi-sdm660-devs/" />
+
+<!-- Add my git as remote -->
+<remote name="nitesh" fetch="https://github.com/niteshkumar2000/" />
 
 <!-- Track device repos -->
-<project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common-1" remote="FE"  revision="pe-10"/>
-<project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="FE"  revision="pe-10"/>
-<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_tulip" remote="ryan"  revision="android-10"/>
-<project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="FE"  revision="pe-10"/>
+<project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="nitesh"  revision="pe-10"/>
+<project path="device/xiaomi/tulip" name="device_xiaomi_tulip" remote="nitesh"  revision="pe-10"/>
+<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sdm660"  revision="lineage-17.1"/>
+<project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="nitesh"  revision="pe-10"/>
 
 </manifest>
