@@ -15,6 +15,4 @@
 <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_tulip" remote="ryan"  revision="android-10"/>
 <project path="vendor/xiaomi" name="vendor_xiaomi_tulip" remote="nitesh"  revision="pe-10"/>
 
-<project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="master"/>
-
 </manifest>
