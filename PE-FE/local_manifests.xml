@@ -11,7 +11,7 @@
 
 <!-- Track device repos -->
 <project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="nitesh"  revision="ten"/>
-<project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="nitesh"  revision="ten"/>
+<project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="nitesh"  revision="ten"/>
 <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="lineage"  revision="lineage-17.1"/>
 <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="muppets"  revision="lineage-17.1"/>
 
