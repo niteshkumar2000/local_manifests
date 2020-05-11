@@ -15,4 +15,6 @@
 <project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="lineage"  revision="lineage-17.1"/>
 <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="muppets"  revision="lineage-17.1"/>
 
+ <!-- Track miui Camera -->
+ <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="10"/>
 </manifest>
