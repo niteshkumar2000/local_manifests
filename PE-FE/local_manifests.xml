@@ -3,18 +3,16 @@
 <!-- Add LOS org git as remote -->
 <remote name="los" fetch="https://github.com/LineageOS" />
 
-<!-- Add muppets git as remote -->
-<remote name="muppets" fetch="https://gitlab.com/the-muppets" />
+<!-- Add sdm660 org as remote -->
+<remote name="sdm660" fetch="https://github.com/xiaomi-sdm660" />
 
 <!-- Add my git as remote -->
 <remote name="nitesh" fetch="https://github.com/niteshkumar2000" />
 
 <!-- Track device repos -->
-<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="nitesh"  revision="ten"/>
-<project path="device/xiaomi/twolip" name="android_device_xiaomi_twolip" remote="nitesh"  revision="ten"/>
-<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="los"  revision="lineage-17.1"/>
-<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="muppets"  revision="lineage-17.1"/>
+<project path="device/xiaomi/sdm660-common" name="android_device_xiaomi_sdm660-common" remote="nitesh"  revision="r"/>
+<project path="device/xiaomi/tulip" name="android_device_xiaomi_tulip" remote="nitesh"  revision="r"/>
+<project path="kernel/xiaomi/sdm660" name="android_kernel_xiaomi_sdm660" remote="sdm660"  revision="master"/>
+<project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="nitesh"  revision="r"/>
 
- <!-- Track miui Camera -->
- <project path="vendor/MiuiCamera" name="vendor_MiuiCamera" remote="nitesh" revision="10"/>
 </manifest>
